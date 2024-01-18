@@ -33,7 +33,7 @@ echo -n "Provide SUDO Numbers: "
 read sudo_numbers
 
 cd ..
-apt -y update && sudo apt -y upgrade
+apt -y update && apt -y upgrade
 apt -y install git ffmpeg curl
 apt -y remove nodejs
 curl -fsSl https://deb.nodesource.com/setup_lts.x | bash -
