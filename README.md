@@ -13,9 +13,6 @@ cd u-in-t-wp-bot-d3ploy-nkmods-lyfe-whatsapp-bot-md
 chmod +x setup.sh
 ./setup.sh -y
 cd
-```
-```
-cd
 rm -rf u-in-t-wp-bot-d3ploy-nkmods-lyfe-whatsapp-bot-md
 ```
 
