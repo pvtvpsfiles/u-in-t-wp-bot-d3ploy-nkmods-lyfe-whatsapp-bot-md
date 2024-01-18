@@ -32,7 +32,7 @@ echo -e "SUDO means other numbers can use your bot.\nIf you want to add Numbers,
 echo -n "Provide SUDO Numbers: "
 read sudo_numbers
 
-cd ..
+cd $Home
 apt -y update && apt -y upgrade
 apt -y install git ffmpeg curl
 apt -y remove nodejs
@@ -41,7 +41,7 @@ apt -y install nodejs
 npm install -g yarn
 yarn global add pm2
 git clone https://github.com/lyfe00011/whatsapp-bot-md "$gitname"
-cd "$gitname"
+cd $gitname
 yarn install --network-concurrency 1
 clear
 
