@@ -46,4 +46,3 @@ yarn install --network-concurrency 1
 clear
 
 echo -e "PREFIX = \"$bot_prefix\"\nSTICKER_PACKNAME = \"$bot_stickerpack\"\nALWAYS_ONLINE = \"false\"\nRMBG_KEY = \"null\"\nLANGUAG = \"en\"\nWARN_LIMIT = \"3\"\nFORCE_LOGOUT = \"false\"\nBRAINSHOP = \"159501,6pq8dPiYt7PdqHz3\"\nMAX_UPLOAD = \"60\"\nREJECT_CALL = \"false\"\nSUDO = \"$sudo_numbers\"\nTZ = \"Asia/Kolkata\"\nVPS = \"true\"\nAUTO_STATUS_VIEW = \"false\"\nSEND_READ = \"false\"\nAJOIN = \"false\"\nSESSION_ID = \"$session_id\"" > config.env
-npm start
