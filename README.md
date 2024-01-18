@@ -12,6 +12,7 @@ git clone https://github.com/pvtvpsfiles/u-in-t-wp-bot-d3ploy-nkmods-lyfe-whatsa
 cd u-in-t-wp-bot-d3ploy-nkmods-lyfe-whatsapp-bot-md
 chmod +x setup.sh
 ./setup.sh -y
+cd
 ```
 ```
 cd
