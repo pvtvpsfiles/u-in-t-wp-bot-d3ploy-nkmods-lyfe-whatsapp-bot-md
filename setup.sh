@@ -42,6 +42,7 @@ npm install -g yarn
 yarn global add pm2
 git clone https://github.com/lyfe00011/whatsapp-bot-md "$gitname"
 cd $gitname
+yarn add @whiskeysockets/baileys
 yarn install --network-concurrency 1
 clear
 
