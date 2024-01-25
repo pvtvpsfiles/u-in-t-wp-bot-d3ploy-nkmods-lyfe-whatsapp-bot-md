@@ -1,5 +1,6 @@
 #!/bin/bash
 
+clear
 echo -n "Do you have session? (y/n): "
 read has_session
 
