@@ -29,7 +29,7 @@ clear
 echo -n "Which Sticker Package (eg: nkmods, XD): "
 read bot_stickerpack
 clear
-echo -e "SUDO means other numbers can use your bot.\nIf you want to add Numbers, format: 917736799273,917591970432,91..\nNumber with country code. Never put + or space, only country code and number"
+echo -e "SUDO means other numbers can use your bot.\nIf you want to add Numbers, format: 917736799273,917591970432,91..\nNumber with country code. Never put + or space, only country code and number\n If you have no other numbers. put: null"
 echo -n "Provide SUDO Numbers: "
 read sudo_numbers
 
