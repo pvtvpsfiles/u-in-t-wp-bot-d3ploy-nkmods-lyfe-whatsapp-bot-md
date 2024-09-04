@@ -41,7 +41,7 @@ curl -fsSl https://deb.nodesource.com/setup_lts.x | bash -
 apt -y install nodejs
 npm install -g yarn
 yarn global add pm2
-git clone https://github.com/lyfe00011/whatsapp-bot-md "$gitname"
+git clone https://github.com/lyfe00011/levanter "$gitname"
 cd $gitname
 yarn add @whiskeysockets/baileys
 yarn install --network-concurrency 1
